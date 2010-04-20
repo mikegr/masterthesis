@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="install.debian" immediate="true">
+  <implementation class="at.tuwien.hoppla.migration.installation.services.internal.DebianPackageInstallation" />
+  <property name="hoppla.identifier" value="DEBIAN"/>
+  <property name="service.description" value="Debian Package Installer" />
+  <property name="service.vendor" value="IFS" />
+  <service>
+    <provide interface="at.tuwien.hoppla.migration.installation.InstallationService" />
+  </service>
+</component>
+<component name="install.download" immediate="true">
+  <implementation class="at.tuwien.hoppla.migration.installation.services.internal.DownloadInstallation" />
+  <property name="service.description" value="Download Installer" />
+  <property name="service.vendor" value="IFS" />
+  <property name="hoppla.identifier" value="DOWNLOAD"/>
+  <service>
+    <provide interface="at.tuwien.hoppla.migration.installation.InstallationService" />
+  </service>
+</component>

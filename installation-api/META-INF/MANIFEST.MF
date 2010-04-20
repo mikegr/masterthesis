@@ -1,0 +1,8 @@
+Manifest-Version: 1
+Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Name: at.tuwien.hoppla.migration.installation-api [at.tuwien.ho
+ ppla.migration.installation]
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: at.tuwien.hoppla.migration.installation_api
+Import-Package: org.osgi.framework,org.osgi.util.tracker
+Export-Package: at.tuwien.hoppla.migration.installation

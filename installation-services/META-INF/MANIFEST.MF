@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/component.xml
+Private-Package: at.tuwien.hoppla.migration.installation.services.inte
+ rnal
+Ignore-Package: at.tuwien.hoppla.migration.installation.services.inter
+ nal
+Built-By: mike
+Tool: Bnd-0.0.255
+Bundle-Name: at.tuwien.hoppla.migration.installation-services [at.tuwi
+ en.hoppla.migration.installation.services]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_16
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1271749250819
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: at.tuwien.hoppla.migration.installation;version="1.0.0
+ .SNAPSHOT",org.apache.commons.exec;version="1.0",org.apache.commons.i
+ o.output;version="1.4",org.osgi.service.component
+Bundle-SymbolicName: at.tuwien.hoppla.migration.installation-services
+

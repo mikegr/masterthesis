@@ -1,0 +1,8 @@
+Manifest-Version: 1
+Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Name: at.tuwien.hoppla.migration.services [at.tuwien.hoppla.mig
+ ration.execution.services]
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: at.tuwien.hoppla.migration.services
+Import-Package: org.osgi.framework,org.osgi.util.tracker
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="migration.gui" immediate="true">
+  <implementation class="at.tuwien.hoppla.migration.gui.GuiService" />
+  <property name="service.description" value="Migration GUI" />
+  <property name="service.vendor" value="IFS" />
+  <service>
+    <provide interface="at.tuwien.hoppla.migration.gui.GuiService" />
+  </service>
+</component>
